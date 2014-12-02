@@ -9,12 +9,17 @@ image bg bluesky = "bg/BG303_01.png"
 image bg park_sunset = "bg/BG104_02.png"
 image bg white = Solid((255, 255, 255, 255))
 
-#--------------Myca------------------------
+
+
+
+#--------------Other------------------------
 
 image myca normal = "others/sylvie_normal.png"
 image myca giggle = "others/sylvie_giggle.png"
 image myca smile = "others/sylvie_smile.png"
 image myca surprised = "others/sylvie_surprised.png"
+
+image blackwelder normal = "others/blackwelder_normal.png"
 
 
 #--------------Kaito-------------------------
@@ -107,7 +112,7 @@ label start:
     
     #call day1morning1
     
-    #call day1morning2
+    call day1morning2
 
     call day1afternoon
 

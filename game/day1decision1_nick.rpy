@@ -40,16 +40,23 @@ label day1decision1_nick:
     "???" "Fang-san…"
     l "Mmm..?"
     "???" "Fang-san… you have drool on your mouth."
+
+    show blackwelder normal at right with dissolve
+    
     "You look up at your teacher, Blackwelder-sensei, in confusion, wondering how he ended up in your daydream."
     
     scene bg classroom_sunset
-    with dissolve          
+    with dissolve            
     
-    
+    show blackwelder normal at right 
+   
     "Oh. The whole class is staring. And once again, you’ve fallen asleep!"
     l "Ehhh?!" with vpunch
     l "GOMEN NASAI, SENSEI!! I swear I was paying attention!"
     "Blackwelder scolds you lightly (but can’t stay mad, of course), and class continues on."
+    
+    hide blackwelder with dissolve
+    
     "This time when the last bell rings, you’re still finishing up some notes like a good student. "
     "Myca strolls up to you."
     
