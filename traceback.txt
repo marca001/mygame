@@ -1,25 +1,29 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 111, in script call
-    call day1afternoon
-  File "game/script.rpy", line 111, in script call
-    call day1afternoon
-ScriptError: could not find label 'day1afternoon'.
+  File "game/script.rpy", line 112, in script call
+    
+  File "game/day1afternoon.rpy", line 15, in script call
+    call day1decision2_kaito
+  File "renpy/common/00start.rpy", line 81, in script
+    return
+Exception: Could not find return label (u'C:\\Users\\Myca\\programs\\renpy-6.18.3-sdk\\mygame/game/day1decision2_kaito.rpy', 1417501287, 0).
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 111, in script call
-    call day1afternoon
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\ast.py", line 1234, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 111, in script call
-    call day1afternoon
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\script.py", line 549, in lookup
-    raise ScriptError("could not find label '%s'." % str(label))
-ScriptError: could not find label 'day1afternoon'.
+  File "game/script.rpy", line 112, in script call
+    
+  File "game/day1afternoon.rpy", line 15, in script call
+    call day1decision2_kaito
+  File "renpy/common/00start.rpy", line 81, in script
+    return
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\ast.py", line 1331, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\execution.py", line 391, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'C:\\Users\\Myca\\programs\\renpy-6.18.3-sdk\\mygame/game/day1decision2_kaito.rpy', 1417501287, 0).
 
 Windows-7-6.1.7601-SP1
-Ren'Py 6.17.7.521
+Ren'Py 6.18.3.761
 mygame 0.0

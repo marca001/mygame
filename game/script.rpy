@@ -6,6 +6,7 @@ image bg classroom = "bg/BG101_01.png"
 image bg classroom_sunset = "bg/BG101_02.png"
 image bg room = "bg/BG305_01.png"
 image bg bluesky = "bg/BG303_01.png"
+image bg park_sunset = "bg/BG104_02.png"
 image bg white = Solid((255, 255, 255, 255))
 
 #--------------Myca------------------------

@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/day1decision2_kaito.rpy", line 6: expected statement.
-    "..." (fade in and out)
-                           ^
+File "game/day1decision2_kaito.rpy", line 82: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "Kaito seems genuinely surprised. His expression then melts into a flustered but joyful smile."
+    ^
 
-Ren'Py Version: Ren'Py 6.17.7.521
+Ren'Py Version: Ren'Py 6.18.3.761
