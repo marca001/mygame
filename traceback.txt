@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 111, in script call
+    call day1afternoon
+  File "game/script.rpy", line 111, in script call
+    call day1afternoon
+ScriptError: could not find label 'day1afternoon'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 111, in script call
+    call day1afternoon
+  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\ast.py", line 1234, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 111, in script call
+    call day1afternoon
+  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\script.py", line 549, in lookup
+    raise ScriptError("could not find label '%s'." % str(label))
+ScriptError: could not find label 'day1afternoon'.
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.17.7.521
+mygame 0.0

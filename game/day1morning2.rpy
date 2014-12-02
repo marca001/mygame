@@ -70,7 +70,7 @@ label day1morning2:
     "It was… John."
     j "HEYY LIZZ WHAT ARE YOU UP TO?!?!" with vpunch
     "He stomps over loudly over, nearly lunging for you."
-    l "(EWWW…!!!!)"
+    l "{i}(EWWW…!!!!){/i}"
     "You slink away from him and impulsively hide behind Nick."
     
     show nick seriousb at right
@@ -103,7 +103,7 @@ label day1morning2:
     
     n "...It's not a big deal."
     n "Anyway, we should get to our seats."
-    l "(...Sigh! Nick-kun is so kakkoi...)"
+    l "{i}(...Sigh! Nick-kun is so kakkoi...){/i}"
     
     scene bg classroom
     with fade      
@@ -202,7 +202,7 @@ label day1morning2:
     m "So, who are you going to go for??"
     l "Huh?"
     m "You know, like, you can’t have both. If you try, they might both get mad!"
-    l "(Awww…)"
+    l "{i}(Awww…){/i}"
     m "At least tell me who you’re leaning toward!"
     "On impulse, the first person to come to your mind is…"    
     
@@ -210,10 +210,12 @@ label day1morning2:
         
         "Kaito!":
         
-            jump day1decision1_kaito
+            call day1decision1_kaito
         
         "Nick!":  
             
-            jump day1decision1_nick
+            call day1decision1_nick
+    
+    
     
     return

@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 103: expected statement.
-    include('day1morning1.rpy')
-                               ^
+File "game/day1decision2_kaito.rpy", line 6: expected statement.
+    "..." (fade in and out)
+                           ^
 
-Ren'Py Version: Ren'Py 6.18.3.761
+Ren'Py Version: Ren'Py 6.17.7.521

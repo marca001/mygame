@@ -59,10 +59,10 @@ label day1morning1:
     scene black with fade    
     
     "You do your usual morning routine while thinking about what just happened."
-    l "(Hmm, it’s normal for us to walk to school together, so this isn’t really unusual. But, he normally waits for me in front of my house or in the living room…)"
-    l "(Could he have gone up to my room because he couldn’t wait to see me?!)"
+    l "{i}(Hmm, it’s normal for us to walk to school together, so this isn’t really unusual. But, he normally waits for me in front of my house or in the living room…){i}"
+    l "{i}(Could he have gone up to my room because he couldn’t wait to see me?!){i}"
     "Your hands spring up to your face in delight, giggling with delight as you try to suppress your excitement. "
-    l "(No, no, I’m sure he really is in a rush… It’s fine… He doesn’t love me like the way I love him, of course…!)"
+    l "{i}(No, no, I’m sure he really is in a rush… It’s fine… He doesn’t love me like the way I love him, of course…!){/i}"
     "You sigh to yourself again, deflating."
     "You head downstairs. You’re not usually a morning person… But you can be if Kaito is there!!"
     
@@ -79,14 +79,13 @@ label day1morning1:
     l "Thanks mom."
     k "Good morning, Mrs. Fang"
     "Liz's Mom" "Oh Kaito, you take of my daughter and make lots of grandchildren, ok???"
-
-
     
-    "You both blush furiously. She says that a lot about you, Kaito, and your child birthing hips, but you feel embarrassed every time still. Kaito chuckles."
+    "You both blush furiously. She says that a lot about you, Kaito, and your child birthing hips, but you feel embarrassed every time still. "
     
     show kaito laughb
     with dissolve    
     
+    "However Kaito laughs lightly."
     k "I’ll be sure to do that!"
     l "Ehhh!?"
     "Flustered, you punch Kaito lightly (even though he staggers from the punch), and leave quickly."
@@ -128,6 +127,6 @@ label day1morning1:
     
     k "Of course, you’re like a sister to me!"
     l "Yeah, you’re not only like another brother, but also my senpai!"
-    l "(But what I feel for you is much more than that…!)"
+    l "{i}(But what I feel for you is much more than that…!){/i}"
     
     return

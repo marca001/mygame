@@ -3,8 +3,10 @@
 # Declare images below this line, using the image statement.
 # eg. image eileen happy = "eileen_happy.png"
 image bg classroom = "bg/BG101_01.png"
+image bg classroom_sunset = "bg/BG101_02.png"
 image bg room = "bg/BG305_01.png"
 image bg bluesky = "bg/BG303_01.png"
+image bg white = Solid((255, 255, 255, 255))
 
 #--------------Myca------------------------
 
@@ -96,12 +98,16 @@ define l = Character('Liz', color="#c8c8ff")
 define m = Character('Myca', color="#c8c8ff")
 define j = Character('John', color="#c8ffc8")
 
+define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+
 
 # The game starts here.
 label start:
     
-    call day1morning1
+    #call day1morning1
     
-    call day1morning2
+    #call day1morning2
+
+    call day1afternoon
 
     return
