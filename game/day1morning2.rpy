@@ -210,10 +210,13 @@ label day1morning2:
         
         "Kaito!":
         
+            $ k_points += 1
+            $ kaito_dream = True
             call day1decision1_kaito
         
         "Nick!":  
             
+            $ n_points += 1
             call day1decision1_nick
     
     

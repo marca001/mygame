@@ -5,9 +5,11 @@
 image bg classroom = "bg/BG101_01.png"
 image bg classroom_sunset = "bg/BG101_02.png"
 image bg room = "bg/BG305_01.png"
+image bg house_outside = "bg/BG203_01.png"
 image bg bluesky = "bg/BG303_01.png"
 image bg park_sunset = "bg/BG104_02.png"
 image bg white = Solid((255, 255, 255, 255))
+image bg school_hall = "bg/BG301_01.png"
 
 
 
@@ -106,14 +108,23 @@ define j = Character('John', color="#c8ffc8")
 
 define flash = Fade(0.1, 0.0, 0.5, color="#fff")
 
+#-----------------------------------------------
+
+
 
 # The game starts here.
 label start:
     
+    $ k_points = 0
+    $ n_points = 0
+    $ kaito_dream = False    
+    
     #call day1morning1
     
-    call day1morning2
+    #call day1morning2
 
     call day1afternoon
+    
+    call day2morning
 
     return

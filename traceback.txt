@@ -1,29 +1,29 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 112, in script call
-    
-  File "game/day1afternoon.rpy", line 15, in script call
-    call day1decision2_kaito
-  File "renpy/common/00start.rpy", line 81, in script
-    return
-Exception: Could not find return label (u'C:\\Users\\Myca\\programs\\renpy-6.18.3-sdk\\mygame/game/day1decision2_kaito.rpy', 1417501287, 0).
+  File "game/script.rpy", line 124, in script call
+    call day1morning2
+  File "game/day1morning2.rpy", line 214, in script
+    $ kaito_dream = true
+  File "game/day1morning2.rpy", line 214, in <module>
+    $ kaito_dream = true
+NameError: name 'true' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 112, in script call
-    
-  File "game/day1afternoon.rpy", line 15, in script call
-    call day1decision2_kaito
-  File "renpy/common/00start.rpy", line 81, in script
-    return
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\ast.py", line 1331, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\execution.py", line 391, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'C:\\Users\\Myca\\programs\\renpy-6.18.3-sdk\\mygame/game/day1decision2_kaito.rpy', 1417501287, 0).
+  File "game/script.rpy", line 124, in script call
+    call day1morning2
+  File "game/day1morning2.rpy", line 214, in script
+    $ kaito_dream = true
+  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\ast.py", line 756, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/day1morning2.rpy", line 214, in <module>
+    $ kaito_dream = true
+NameError: name 'true' is not defined
 
 Windows-7-6.1.7601-SP1
-Ren'Py 6.18.3.761
+Ren'Py 6.17.7.521
 mygame 0.0

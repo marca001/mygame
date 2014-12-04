@@ -66,7 +66,7 @@ label day1morning1:
     "You sigh to yourself again, deflating."
     "You head downstairs. You’re not usually a morning person… But you can be if Kaito is there!!"
     
-    scene bg room
+    scene bg house_outside
     with dissolve    
     
     show kaito normal
