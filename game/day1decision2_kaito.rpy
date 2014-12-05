@@ -203,6 +203,9 @@ label day1decision2_kaito:
     l "W-what are you…?!"
     k "You have ice cream on your face."
     "He smiles almost flirtatiously as he withdraws his hand from your wide-eyed face."
+    
+    #END FLAG SCENE
+    
     "He suggests that you two head home now since the sun has near set. He walks you to your house, as he normally does, and then heads back to his own place."
 
     scene black with fade
