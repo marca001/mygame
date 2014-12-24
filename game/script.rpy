@@ -27,42 +27,56 @@ image blackwelder normal = "others/blackwelder_normal.png"
 #--------------Kaito-------------------------
 
 #kaito normal size avatar, hand on back of head
-image kaito worry = "kaito/ST31A01S.png"
-image kaito laugh = "kaito/ST31A02S.png"
-image kaito frown = "kaito/ST31A03S.png"
-image kaito smile = "kaito/ST31A04S.png"
-image kaito normal = "kaito/ST31A05S.png"
+#image kaito worry = "kaito/ST31A01S.png"
+#image kaito laugh = "kaito/ST31A02S.png"
+#image kaito frown = "kaito/ST31A03S.png"
+#image kaito smile = "kaito/ST31A04S.png"
+#image kaito normal = "kaito/ST31A05S.png"
+
+image kaito worry = "kaito/handbackofheadworry.png"
+image kaito laugh = "kaito/handbackofheadlaugh.png"
+image kaito frown = "kaito/handbackofheadfrown.png"
+image kaito smile = "kaito/handbackofheadtalk.png"
+image kaito normal = "kaito/handbackofheadnormal.png"
 
 #kaito normal size avatar, hand on back of head, blushing
-image kaito worryb = "kaito/ST31A11S.png"
-image kaito laughb = "kaito/ST31A12S.png"
-image kaito frownb = "kaito/ST31A13S.png"
-image kaito smileb = "kaito/ST31A14S.png"
-image kaito normalb = "kaito/ST31A15S.png"
+#image kaito worryb = "kaito/ST31A11S.png"
+#image kaito laughb = "kaito/ST31A12S.png"
+#image kaito frownb = "kaito/ST31A13S.png"
+#image kaito smileb = "kaito/ST31A14S.png"
+#image kaito normalb = "kaito/ST31A15S.png"
+
+image kaito worryb = "kaito/handbackofheadworryblush.png"
+image kaito laughb = "kaito/handbackofheadlaughblush.png"
+image kaito frownb = "kaito/handbackofheadfrownblush.png"
+image kaito smileb = "kaito/handbackofheadtalkblush.png"
+image kaito normalb = "kaito/handbackofheadnormalblush.png"
 
 #kaito normal size avatar, touching chest
-image kaito worryt = "kaito/ST33A01S.png"
-image kaito shock = "kaito/ST33A02S.png"
-image kaito mad = "kaito/ST33A03S.png"
-image kaito smilet = "kaito/ST33A04S.png"
+image kaito worryt = "kaito/touchingchestworryblus.png"
+image kaito shock = "kaito/touchingchestshock.png"
+image kaito mad = "kaito/touchingchestmad.png"
+image kaito smilet = "kaito/touchingchestsmile.png"
+image kaito laught = "kaito/touchingchestlaugh.png"
 
 #kaito normal size avatar, touching chest, blushing
-image kaito worrytb = "kaito/ST33A11S.png"
-image kaito shockb = "kaito/ST33A12S.png"
-image kaito madb = "kaito/ST33A13S.png"
-image kaito smiletb = "kaito/ST33A14S.png"
+image kaito worrytb = "kaito/touchingchestworryblus.png"
+image kaito shockb = "kaito/touchingchestshockblush.png"
+image kaito madb = "kaito/touchingchestmadblush.png"
+image kaito smiletb = "kaito/touchingchestsmileblush.png"
+image kaito laught = "kaito/touchingchestlaughblush.png"
 
 #kaito normal size avatar, arms crossed
-image kaito worrya = "kaito/ST32A01S.png"
-image kaito frowna = "kaito/ST32A02S.png"
-image kaito anxious = "kaito/ST32A03S.png"
-image kaito smilea = "kaito/ST32A04S.png"
+image kaito worrya = "kaito/crossedarmworry.png"
+image kaito frowna = "kaito/crossedarmfrown.png"
+image kaito laugha = "kaito/crossedarmtalk.png"
+image kaito smilea = "kaito/crossedarmsmile.png"
 
 #kaito normal size avatar, arms crossed
-image kaito worryab = "kaito/ST32A11S.png"
-image kaito frownab = "kaito/ST32A12S.png"
-image kaito anxiousb = "kaito/ST32A13S.png"
-image kaito smileab = "kaito/ST32A14S.png"
+image kaito worryab = "kaito/crossedarmworryblush.png"
+image kaito frownab = "kaito/crossedarmfrownblush.png"
+image kaito laughab = "kaito/crossedarmtalkblush.png"
+image kaito smileab = "kaito/crossedarmsmileblush.png"
 
 #----------------Nick-----------------------
 
@@ -119,9 +133,9 @@ label start:
     $ n_points = 0
     $ kaito_dream = False    
     
-    #call day1morning1
+    call day1morning1
     
-    #call day1morning2
+    call day1morning2
 
     call day1afternoon
     

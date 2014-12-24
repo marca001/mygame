@@ -1,73 +1,67 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 127, in script call
-    call day1afternoon
-  File "game/day1afternoon.rpy", line 21, in script call
-    call day1decision2_nick
-  File "game/day1decision2_nick.rpy", line 49, in script
-    "Nick looks away, his mouth in a tight line. Yet he didn’t seem unhappy."
-IOError: Couldn't find file 'nick/ST32A12S.png'.
+  File "game/script.rpy", line 136, in script call
+    call day1morning1
+  File "game/day1morning1.rpy", line 106, in script
+    with dissolve
+IOError: Couldn't find file 'kaito/handbackofheadfrown.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 127, in script call
-    call day1afternoon
-  File "game/day1afternoon.rpy", line 21, in script call
-    call day1decision2_nick
-  File "game/day1decision2_nick.rpy", line 49, in script
-    "Nick looks away, his mouth in a tight line. Yet he didn’t seem unhappy."
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\ast.py", line 558, in execute
-    renpy.exports.say(who, what, interact=self.interact)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\exports.py", line 925, in say
-    who(what, interact=interact)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\character.py", line 817, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\character.py", line 683, in do_display
-    **display_args)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\character.py", line 486, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\ui.py", line 264, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\core.py", line 2065, in interact
+  File "game/script.rpy", line 136, in script call
+    call day1morning1
+  File "game/day1morning1.rpy", line 106, in script
+    with dissolve
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\ast.py", line 1229, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\exports.py", line 1229, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 1810, in do_with
+    clear=clear)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 2149, in interact
     repeat, rv = self.interact_core(preloads=preloads, **kwargs)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\core.py", line 2390, in interact_core
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 2478, in interact_core
     self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\core.py", line 1591, in draw_screen
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 1677, in draw_screen
     renpy.config.screen_height,
-  File "render.pyx", line 362, in renpy.display.render.render_screen (gen\renpy.display.render.c:5303)
-  File "render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:2494)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\layout.py", line 549, in render
+  File "render.pyx", line 363, in renpy.display.render.render_screen (gen\renpy.display.render.c:5330)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\layout.py", line 618, in render
     surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 95, in renpy.display.render.render (gen\renpy.display.render.c:2767)
-  File "render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:2494)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\layout.py", line 549, in render
+  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\transition.py", line 362, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\layout.py", line 618, in render
     surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 95, in renpy.display.render.render (gen\renpy.display.render.c:2767)
-  File "render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:2494)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\layout.py", line 549, in render
+  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\layout.py", line 618, in render
     surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 95, in renpy.display.render.render (gen\renpy.display.render.c:2767)
-  File "render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:2494)
-  File "accelerator.pyx", line 109, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1654)
-  File "render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:2494)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\image.py", line 164, in render
+  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1922)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\image.py", line 207, in render
     return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\image.py", line 54, in wrap_render
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\image.py", line 82, in wrap_render
     rend = render(child, w, h, st, at)
-  File "render.pyx", line 95, in renpy.display.render.render (gen\renpy.display.render.c:2767)
-  File "render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:2494)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\im.py", line 465, in render
+  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
+  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\im.py", line 465, in render
     im = cache.get(self)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\im.py", line 198, in get
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\im.py", line 198, in get
     surf = image.load()
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\display\im.py", line 509, in load
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\im.py", line 509, in load
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\mycaa\renpy-6.17.7-sdk\renpy\loader.py", line 431, in load
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\loader.py", line 438, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'nick/ST32A12S.png'.
+IOError: Couldn't find file 'kaito/handbackofheadfrown.png'.
 
 Windows-7-6.1.7601-SP1
-Ren'Py 6.17.7.521
+Ren'Py 6.18.3.761
 mygame 0.0

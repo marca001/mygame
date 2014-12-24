@@ -69,7 +69,7 @@ label day1morning1:
     scene bg house_outside
     with dissolve    
     
-    show kaito normal
+    show kaito normalb
     with dissolve
     
     k "Are you ready to go?"

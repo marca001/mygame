@@ -49,14 +49,14 @@ label day1decision2_kaito:
     
     show kaito normal
     
-    "After talking for a bit, you find out his classroom is working on a host cafe!"
-    "Instead of maids, it will be a few of the guys dressed up like butlers or hosts or generally at their classiest."
-    l "Please tell me you’re going to be one of the hosts!!!"
+    "After talking for a bit, you find out his classroom is having a talent show!"
+    "Their class will be set up in the theater and being doing various performances."
+    l "Kaito-senpai!! Please tell me you’re going to sing!!"
     
     show kaito laughb
     
     k "Actually, I am!"
-    l "Amazing!! You’ll look SO good as one!!!"
+    l "Amazing!! You'll look so good on stage too!!"
     "You blurt that out on impulse, but Kaito seems genuinely happy to hear that from you."
     
     show kaito smilea with dissolve    
@@ -73,11 +73,10 @@ label day1decision2_kaito:
     
     hide kaito with dissolve
     
-    "The two of you get to work, which consists of putting together costumes and going over food and menus. "
-    "You dazzle the classroom with your impressive sewing skills and costume creativity."
-    "Later, you also give some input on the menus and add that you’d be able to help cook. "
+    "The two of you get to work, which consists of helping various students, including costumes. "
+    "You dazzle the classroom with your impressive sewing skills."
     "The upperclassmen ooh and ahh at you~"
-    "Just as you've stitched up another costume, you look up at the time and see time has passed quickly."
+    "Just as you and Kaito help another student with their props, you look up at the time and see time has passed quickly."
     "Classmate" "Hey, you two can go home if you’d like. We can work on more tomorrow. "
     "Classmate" "You’ve already helped so much even though you’re not in this class! So don't worry, we've pretty much got this."
     l "Aw, thanks so much, senpai!"
