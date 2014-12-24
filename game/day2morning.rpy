@@ -1,5 +1,7 @@
 label day2morning:
     
+    #test! i added stuff 
+    
     scene bg room with fade
     
     "You wake up bright and early the next day when your cat is kneading your face."
