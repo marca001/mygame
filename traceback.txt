@@ -1,66 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 136, in script call
-    call day1morning1
-  File "game/day1morning1.rpy", line 106, in script
-    with dissolve
-IOError: Couldn't find file 'kaito/handbackofheadfrown.png'.
+  File "game/script.rpy", line 142, in script call
+    call day2morning
+  File "game/day2morning.rpy", line 11, in script
+    l_mom "(IN HMONG) Good morning, daughter. Your boyfriend is waiting outside for you."
+Exception: Sayer 'l_mom' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 136, in script call
-    call day1morning1
-  File "game/day1morning1.rpy", line 106, in script
-    with dissolve
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\ast.py", line 1229, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\exports.py", line 1229, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 1810, in do_with
-    clear=clear)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 2149, in interact
-    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 2478, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\core.py", line 1677, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 363, in renpy.display.render.render_screen (gen\renpy.display.render.c:5330)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\layout.py", line 618, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\transition.py", line 362, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\layout.py", line 618, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\layout.py", line 618, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1922)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\image.py", line 207, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\image.py", line 82, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 98, in renpy.display.render.render (gen\renpy.display.render.c:2849)
-  File "render.pyx", line 174, in renpy.display.render.render (gen\renpy.display.render.c:2537)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\im.py", line 465, in render
-    im = cache.get(self)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\im.py", line 198, in get
-    surf = image.load()
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\display\im.py", line 509, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\loader.py", line 438, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'kaito/handbackofheadfrown.png'.
+  File "game/script.rpy", line 142, in script call
+    call day2morning
+  File "game/day2morning.rpy", line 11, in script
+    l_mom "(IN HMONG) Good morning, daughter. Your boyfriend is waiting outside for you."
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\ast.py", line 573, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Myca\programs\renpy-6.18.3-sdk\renpy\ast.py", line 491, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'l_mom' is not defined.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 6.18.3.761

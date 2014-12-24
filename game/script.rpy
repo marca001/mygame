@@ -133,11 +133,11 @@ label start:
     $ n_points = 0
     $ kaito_dream = False    
     
-    call day1morning1
+    #call day1morning1
     
-    call day1morning2
+    #call day1morning2
 
-    call day1afternoon
+    #call day1afternoon
     
     call day2morning
 

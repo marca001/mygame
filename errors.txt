@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/day1decision2_nick.rpy", line 21: end of line expected.
-    show myca normal with dissolve at right
-                                   ^
+File "game/day2morning.rpy", line 46: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    l "Hmm, maybe..."
+    ^
 
-Ren'Py Version: Ren'Py 6.17.7.521
+Ren'Py Version: Ren'Py 6.18.3.761
