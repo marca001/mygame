@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/day2morning.rpy", line 46: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    l "Hmm, maybe..."
-    ^
+File "game/day2decision1_lookforkaito.rpy", line 48: end of line expected.
+    scene bg cloudysky with slow fade
+                                 ^
 
 Ren'Py Version: Ren'Py 6.18.3.761

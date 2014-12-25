@@ -18,7 +18,7 @@ label day1decision2_nick:
     l "Whoa, you’re already done with most of the props you started with…"
     l "If you’re done already, help me with mine! It’s heavy~"
     
-    show myca surprised at right with dissolve 
+    show myca surprised at left with dissolve 
     
     m "Huh? You carried my prop AND yours."
     l "Whaaaat? No, I didn’t. "

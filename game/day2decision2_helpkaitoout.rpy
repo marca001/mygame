@@ -39,15 +39,15 @@ label day2decision2_helpkaitoout:
 #    k "Well, you’re not just anyone, you’re my closest friend…"
 #    if kaito_lunch then
 #            k "And like I said at lunch, I don’t mind if it’s you."
-    else
-            k "Of course I don’t mind if it’s you…"
+#   else
+#           k "Of course I don’t mind if it’s you…"
     l "O-okay…!"
     "Walking together, you both head out of the building to the other with the music room."
     "As you two chat happily about the festival, you notice the sun is setting already."
     "You’re reminded of the bet, and how you want to ask either Nick or Kaito of the dance…"
     "There’s not much time left. You wonder if Kaito would say yes…"
     "But when you look up at Kaito’s warm smile in the setting sun, you can’t help but get all choked up and embarrassed!"
-    "By the time you reach the music room, Kaito must see the conflict on your face.
+    "By the time you reach the music room, Kaito must see the conflict on your face."
     k "Is something the matter?"
     l "N-no! Nothing!"
     k "Okay, then. I’m gonna go ahead and practice."
@@ -60,7 +60,7 @@ label day2decision2_helpkaitoout:
     "And his voice is so deep and emotional..."
     "You can't help but sigh with content."
     "He stops and turns back to you."
-    k "Does it sound good so far to you?
+    k "Does it sound good so far to you?"
     l "Absolutely!"
     l "I love this song so much too!"
     k "Really? I'm glad."
