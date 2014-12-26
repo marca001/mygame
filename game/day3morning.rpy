@@ -136,5 +136,19 @@ label day3morning:
     "So it’s either the haunted house where, Nick is at, or the talent show in the show, where Kaito is…"
     "You wonder if you’ll finally muster the courage to ask one of them at their booth or end up alone with… John."
     "Where should you go?"
+    
+    menu:
+        
+        "Kaito's class":
+        
+            $ k_points += 1
+            call day3decision1_kaito
+        
+        "Nick's class":  
+            
+            $ n_points += 1
+            call day3decision1_nick    
+            
+    #Insert credits here
 
     return

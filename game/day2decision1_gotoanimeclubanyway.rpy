@@ -119,7 +119,7 @@ label day2decision1_gotoanimeclubanyway:
     l "({i}God, please kill me.{/i})"
     "..."
     "The rest of lunch goes on like this." 
-    "You listen in broken silence as John continues to make noises at you."
+    "You listen in broken silence as John continues to make mating calls at you."
     "Ten minutes before lunch ends, you stand up suddenly and excuse yourself because \"Class is starting soon!\""
     "John watches you leave sadly." 
     "Meanwhile, you nearly sprint out of the clubroom."

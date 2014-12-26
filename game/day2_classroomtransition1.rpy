@@ -4,12 +4,12 @@ label day2_classroomtransition1:
     
     "Back in the classroom, you slouch over on your desk and think about what happened during lunch."
     "The school festival is tomorrow and you still feel completely unsure of how things will play out…"
-#    if nick > kaito 
-#            "You feel like you’ve been spending a lot of time with Nick lately, but there’s still a chance with Kaito…"
-#    else if nick == kaito
-#            "You feel like you’ve been seeing both Nick and Kaito a lot lately and it could go either way…"
-#    else (nick < kaito)
-#            "You feel like you’ve been spending a lot of time with Kaito lately, but there’s still a chance with Nick…"	
+    if n_points > k_points:
+        "You feel like you’ve been spending a lot of time with Nick lately, but there’s still a chance with Kaito…"
+    elif n_points < k_points:
+        "You feel like you’ve been spending a lot of time with Kaito lately, but there’s still a chance with Nick…"
+    else:
+        "You feel like you’ve been seeing both Nick and Kaito a lot lately and it could go either way…"
     "Without realizing, you’ve doodled a bunch of cute chibi pictures of yourself stressing out in the corner of your notes."
     "Seeing cute versions of yourself stressing out stresses you out even more, so you decide to draw your cat, Momo, instead."
     "Time flies by and before you know it the last bell is about to ring and students are shuffling their papers rapidly in excitement."
@@ -26,5 +26,20 @@ label day2_classroomtransition1:
     "You wave at her as she leaves. You look around the class and see some students rushing out, others staying and moving their desks."
     "It’s the last afternoon you’ll have to work on the festival..."
     "Again, you remember Kaito asking for help, but also know Nick will be working hard here in the class…"
+    
+    menu:
+        
+        "Help out Kaito.":
+        
+            $ k_points += 1
+            $ d2d2_kaito = True
+            call day2decision2_helpkaitoout
+        
+        "Help out Nick":  
+            
+            $ n_points += 1
+            $ d2d2_nick = True
+            call day2decision2_helpnickout  
+    
     
     return

@@ -13,11 +13,13 @@ label day1afternoon:
         "Help Kaito’s class":
         
             $ k_points += 1
+            $ d1d2_kaito = True
             call day1decision2_kaito
         
         "Help Nick’s class":  
             
             $ n_points += 1
+            $ d1d2_nick = True
             call day1decision2_nick    
         
     "You immediately call up your heterosexual life partner. You tell her the events verbatim and maybe a bit of exaggeration."

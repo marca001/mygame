@@ -2,8 +2,6 @@
 errors listed below, and try again.
 
 
-File "game/day2decision1_lookforkaito.rpy", line 48: end of line expected.
-    scene bg cloudysky with slow fade
-                                 ^
+File "game/day3decision1_nick.rpy", line 91: Tab characters are not allowed in Ren'Py scripts.
 
 Ren'Py Version: Ren'Py 6.18.3.761

@@ -77,16 +77,15 @@ label day2morning:
     
     hide kaito
     
-    "You two continue on like this as you walk to school together. Maybe it’s just you, but you really enjoyed these little talks you two have together. You’re smiling and jovial the whole time. He seems the same way."
-#    "You talk about the upcoming festival, the progress, what happened…"
-#        >k "Do you think you can help out again today? Everyone enjoys your help. I think you really impressed everyone last time too."
-#            l "Aw, really? Hehe, maybe."
-#            "It was nice to assert your territory in front of all those girls."
-#            >k "By the way, feel free to come by our class if you ever want to help. We could always use more people, and it'll be fun."
-#            l "Hmm, maybe..."
-
-    show kaito smilea with dissolve
+    scene bg bluesky
+    with fade     
     
+    "You two continue on like this as you walk to school together. Maybe it’s just you, but you really enjoyed these little talks you two have together. You’re smiling and jovial the whole time. He seems the same way."
+    "You talk about the upcoming festival, the progress, what happened…"
+    
+    show kaito smilea with dissolve    
+    
+    k "By the way, feel free to come by our class if you ever want to help. We could always use more people, and it'll be fun."    
     l "I'll see, but since this is the last day before the festival, hopefully they won't be too busy at my own class."
     l "By the way, I can't wait to hear you sing!"
     
@@ -220,8 +219,10 @@ label day2morning:
     
     show myca surprised with vpunch
     m "EhhH!!! USO!!"
-        #    >m "So not only did he spend all that time with you yesterday and say that weird stuff about not responding to your confession yet…"
-         #   m "He also kept all your love letters?!"
+    if d1d2_nick:
+        m "So not only did he spend all that time with you yesterday and say that weird stuff about not responding to your confession yet…"
+    else:
+        m "He also kept all your love letters?!"
     m "Who does all that!? He obviously still likes you! It’s even more obvious now!"
     "Before you could damage her desk even more in excitement, you hear the school bell ring." 
     "You rush to your seats as the teacher comes in just on time."
@@ -265,8 +266,22 @@ label day2morning:
     "You stare at your lunch blankly and bite your lip. There’s no way you can eat alone, especially with all these thoughts stressing you out." 
     "You decide to…"
      
-    #call day2decision1_gotoanimeclubanyway
-    #call day2decision1_lookforkaito
-    call day2decision1_lookfornick
+    menu:
+        
+        "Look for Kaito.":
+        
+            $ k_points += 1
+            $ d2d1_kaito = True
+            call day2decision1_lookforkaito
+        
+        "Look for Nick":  
+            
+            $ n_points += 1
+            $ d2d1_nick = True
+            call day2decision1_lookfornick    
+    
+        "Go to Anime Club anyway":  
+            
+            call day2decision1_gotoanimeclubanyway
     
     return

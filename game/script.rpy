@@ -129,7 +129,14 @@ label start:
     
     $ k_points = 0
     $ n_points = 0
+    
     $ kaito_dream = False    
+    $ d1d2_kaito = False
+    $ d1d2_nick = False
+    $ d2d1_kaito = False
+    $ d2d1_nick = False    
+    $ d2d2_kaito = False
+    $ d2d2_nick = False        
     
     #call day1morning1
     
@@ -137,6 +144,12 @@ label start:
 
     #call day1afternoon
     
-    call day2morning
+    #call day2morning
+    
+    call day2_classroomtransition1
+    
+    call day3morning
+    
+    #credits ..
 
     return
