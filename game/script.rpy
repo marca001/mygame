@@ -151,13 +151,13 @@ label start:
     $ d2d2_kaito = False
     $ d2d2_nick = False        
     
-    #call day1morning1
+    call day1morning1
     
-    #call day1morning2
+    call day1morning2
 
-    #call day1afternoon
+    call day1afternoon
     
-    #call day2morning
+    call day2morning
     
     call day2_classroomtransition1
     
