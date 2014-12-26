@@ -236,21 +236,19 @@ label day3decision1_nick:
     n "L-look, you wanted a formal response, right?!"
     n "T-to your confession…"
     
-    show nick worrytb with dissolve
+    show nick worryab with dissolve
     
     n "So, this is my answer…"
     "He takes a deep breath..."
     
-    show nick madtb with dissolve
-    
-    n "Yes…"
-    
     show nick talkb with dissolve
     
+    n "Yes…"
     n "I like you too!"
-    n "And I want to go out with you!"
     
-    show nick seriousb 
+    show nick smileb with dissolve
+    
+    n "Liz... Will you go out with me?"
     
     "You’re rendered speechless, your hand covering up your mouth as tears form in your eyes."
     l "Nick-kun…!"
@@ -280,9 +278,16 @@ label day3decision1_nick:
     
     "You manage to drag Nick out onto the field where the bonfire dance has already started."
     "You see dozens of happy couples already swaying with their partners to the music playing in the background."
+    
+    show nick worryab with dissolve
+    
     n "D-do I have to?"
     l "Yes! Don’t worry, I’ll help you out."
+    
     "You takes his hand in yours and gently lead him."
+    
+    hide nick with dissolve
+    
     "As you walk toward the glowing fire in the center of the sports field, you spot Myca in the distance."
     l "Myca!!! Look!"
     "You point at your hand in Nick’s."
@@ -298,25 +303,45 @@ label day3decision1_nick:
     "Nick doesn’t say much, but his -dere expressions say it all…"
     "In the corner of your eye, you see John biting a handkerchief and tears streaming down his face as he watches."
     "Ah, everything is perfect."
-    "Eventually, you \two break off from the crowd and make your way to the empty side of the school building."
+    
+    scene bg schoolside_night with dissolve    
+    
+    "Eventually, you two break off from the crowd and make your way to the empty side of the school building."
     l "Did you have fun?"
-    n "Mm… As long as it’s with you."
+    
+    show nick smileb with dissolve
+    
+    n "I did, actually."
+    n "I-I didn't think think I'd like these sort of things."
+    n "But when I'm with you, it's different..."
     "Your heart skips a beat. You can’t believe Nick is going to say things like this from now on."
     l "I’m so happy…! I really do like you, Nick-kun."
+    
+    show nick smileab with dissolve
+    
     n "I like you too, Liz…"
     n "A-actually…"
     n "Can I call you… Lizzy?"
     n "If you don’t mind…"
     l "O-of course not!" with vpunch
     n "Okay, then… "
+    
+    show nick smiletb with dissolve
+    
     n "L… Lizzy..."
     l "Oh, Nick-kun~!"
     "You embrace him tightly, wishing the night would never end."
-    "You pull apart, but Nick leans forward and whispers in your ear."
-    #scene fade to black
-    n "Thank you… for everything."
-    #"Have you heard of…"
-    #"NUDISTO BEACH!!!"
-    "HAPPY END!"    
+    
+    scene black with dissolve
+    
+    l "NICK-KUN... DAISUKI!!!"
+    
+    scene pink with dissolve
+    
+    show text "~HAPPY KAITO END~" with pixellate
+    
+    show text "~HAPPY KAITO END~" with Pause(4)    
+    
+    jump credits
     
     return

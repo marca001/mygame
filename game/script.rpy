@@ -1,9 +1,13 @@
 ﻿# You can place the script of your game in this file.
 
+
+image pink = Solid((240,128,128,255))
+
 # Declare images below this line, using the image statement.
 # eg. image eileen happy = "eileen_happy.png"
 image bg classroom = "bg/BG101_01.png"
 image bg classroom_sunset = "bg/BG101_02.png"
+image bg classroom_night = "bg/BG101_03.png"
 image bg room = "bg/BG305_01.png"
 image bg house_outside = "bg/BG203_01.png"
 image bg bluesky = "bg/BG303_01.png"
@@ -141,20 +145,62 @@ label start:
     $ d2d2_kaito = False
     $ d2d2_nick = False        
     
-    #call day1morning1
+    call day1morning1
     
-    #call day1morning2
+    call day1morning2
 
-    #call day1afternoon
+    call day1afternoon
     
-    #call day2morning
+    call day2morning
     
-    #call day2_classroomtransition1
+    call day2_classroomtransition1
     
-    #call day3morning
+    call day3morning
     
-    call day3decision1_nick
+    call badend
     
-    #credits ..
+    
+label credits:
+    
+    scene black with dissolve
+    
+    show text "~~CREDITS~~" with moveinbottom
+    
+    show text "~~CREDITS~~" with Pause(1.5)
+    
+    hide text "~~CREDITS~~" with moveouttop
+    
+    show text "Writing, Directing, Programming\nMyca Arcangel\n\n\"Hope you had fun! I know I'm moving far, but our HEARTS ARE ALWAYS CONNECTED!\nSeriously though, we're best friends... \nWe'll be 2gether4ever love u bae\"" with moveinbottom
+    
+    show text "Writing, Directing, Programming\nMyca Arcangel\n\n\"Hope you had fun! I know I'm moving far, but our HEARTS ARE ALWAYS CONNECTED!\nSeriously though, we're best friends... \nWe'll be 2gether4ever love u bae\"" with Pause(5)
+    
+    hide text "Writing, Directing, Programming\nMyca Arcangel\n\n\"Hope you had fun! I know I'm moving far, but our HEARTS ARE ALWAYS CONNECTED!\nSeriously though, we're best friends... \nWe'll be 2gether4ever love u bae\"" with moveouttop    
+    
+    show text "Programming & Editing\nStephanie Arcangel" with moveinbottom
+    
+    show text "Programming & Editing\nStephanie Arcangel" with Pause(3)
+    
+    hide text "Programming & Editing\nStephanie Arcangel" with moveouttop        
+
+    show text "Art and Background(googling)\nStacey Arcangel" with moveinbottom
+    
+    show text "Art and Background(googling)\nStacey Arcangel" with Pause(3)
+    
+    hide text "Art and Background(googling)\nStacey Arcangel" with moveouttop    
+    
+    show text "Music\nIncoming DLC for $2.99!" with moveinbottom
+    
+    show text "Music\nIncoming DLC for $2.99" with Pause(2)
+    
+    hide text "Music\nIncoming DLC for $2.99" with moveouttop        
+    
+    show text "~Thanks For Playing~" with pixellate
+    
+    show text "~Thanks For Playing~" with Pause(5)
+    
+    show text "~And Thanks For Being an Amazing Friend~" with pixellate
+    
+    show text "~And Thanks For Being an Amazing Friend~" with Pause(5)
+    
 
     return

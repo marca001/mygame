@@ -2,8 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/day2decision2_helpnickout.rpy", line 62: end of line expected.
-    scene black with nick fade
+File "game/script.rpy", line 5: expected statement.
+    def overriding_overlay():
                           ^
+
+File "game/script.rpy", line 13: expected statement.
+    config.overlay_functions.append(overriding_overlay) 
+                                                        ^
 
 Ren'Py Version: Ren'Py 6.18.3.761

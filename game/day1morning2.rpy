@@ -61,12 +61,7 @@ label day1morning2:
     show nick shock
     
     "???" "HEY LIZ!!!" with vpunch
-    "Oh god, it can't be. That slimey, screechy voice could only belong to one person."
-    
-    show nick shock at right
-    
-    show kaito smilet with dissolve
-    
+    "Oh god, it can't be. That slimey, screechy voice could only belong to one person."    
     "It was… John."
     j "HEYY LIZZ WHAT ARE YOU UP TO?!?!" with vpunch
     "He stomps over loudly over, nearly lunging for you."

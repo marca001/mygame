@@ -260,8 +260,10 @@ label day3decision1_kaito:
     
     scene pink with dissolve
     
-    show text "~HAPPY KAITO END~" with pixellate
+    show text "~HAPPY NICK END~" with pixellate
     
-    show text "~HAPPY KAITO END~" with Pause(5)
+    show text "~HAPPY NICK END~" with Pause(4)
+    
+    jump credits
     
     return
