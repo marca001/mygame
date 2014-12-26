@@ -22,7 +22,8 @@ label day2decision2_helpkaitoout:
     l "Oh, I’ll be fine."
     "You casually pick up a 2 boxes full of clothing and props and shoulder a trunk with instruments in it."
     "The students are gawking at you…"
-    "You can’t help but feel a little smug. You bet they don’t even lift."
+    "You can’t help but feel a little smug."
+    "You bet they don’t even lift."
     
     show kaito shock with dissolve
     
