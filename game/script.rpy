@@ -15,7 +15,9 @@ image bg school_hall2_sunset = "bg/BG102_02.png"
 image bg roof = "bg/BG105_01.png"
 image bg cloudysky = "bg/BG306_01.png"
 image bg gym = "bg/BG204_01.png"
-
+image bg bonfire = "bg/BG104_05.png"
+image bg schoolside_night = "bg/BG201_02.png"
+image ghost = "bg/ghost.png"
 
 #--------------Other------------------------
 
@@ -147,9 +149,11 @@ label start:
     
     #call day2morning
     
-    call day2_classroomtransition1
+    #call day2_classroomtransition1
     
-    call day3morning
+    #call day3morning
+    
+    call day3decision1_nick
     
     #credits ..
 
