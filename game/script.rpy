@@ -11,8 +11,10 @@ image bg park_sunset = "bg/BG104_02.png"
 image bg white = Solid((255, 255, 255, 255))
 image bg school_hall = "bg/BG301_01.png"
 image bg school_hall2 = "bg/BG102_01.png"
+image bg school_hall2_sunset = "bg/BG102_02.png"
 image bg roof = "bg/BG105_01.png"
 image bg cloudysky = "bg/BG306_01.png"
+image bg gym = "bg/BG204_01.png"
 
 
 #--------------Other------------------------
@@ -54,7 +56,6 @@ image kaito worrytb = "kaito/touchingchestworryblush.png"
 image kaito shockb = "kaito/touchingchestshockblush.png"
 image kaito madb = "kaito/touchingchestmadblush.png"
 image kaito smiletb = "kaito/touchingchestsmileblush.png"
-image kaito laught = "kaito/touchingchestlaughblush.png"
 image kaito talkingtb = "kaito/touchingchesttalkblush.png"
 
 #kaito normal size avatar, arms crossed

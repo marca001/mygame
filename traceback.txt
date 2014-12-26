@@ -1,23 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 140, in script call
-    call day2morning
-  File "game/day2morning.rpy", line 270, in script call
-    call day2decision1_lookforkaito
-  File "game/day2decision1_lookforkaito.rpy", line 94, in script
-    k "Eh?!"
-IOError: Couldn't find file 'kaito/touchingchestworryblus.png'.
+  File "game/script.rpy", line 150, in script call
+    call day2_classroomtransition1
+  File "game/day2_classroomtransition1.rpy", line 36, in script call
+    call day2decision2_helpkaitoout
+  File "game/day2decision2_helpkaitoout.rpy", line 74, in script
+    k "But, umm… Did you want to come with me?"
+IOError: Couldn't find file 'kaito/touchingchestlaughblush.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 140, in script call
-    call day2morning
-  File "game/day2morning.rpy", line 270, in script call
-    call day2decision1_lookforkaito
-  File "game/day2decision1_lookforkaito.rpy", line 94, in script
-    k "Eh?!"
+  File "game/script.rpy", line 150, in script call
+    call day2_classroomtransition1
+  File "game/day2_classroomtransition1.rpy", line 36, in script call
+    call day2decision2_helpkaitoout
+  File "game/day2decision2_helpkaitoout.rpy", line 74, in script
+    k "But, umm… Did you want to come with me?"
   File "C:\Users\Ame\Downloads\renpy-6.18.3-sdk\renpy\ast.py", line 593, in execute
     renpy.exports.say(who, what, interact=self.interact)
   File "C:\Users\Ame\Downloads\renpy-6.18.3-sdk\renpy\exports.py", line 999, in say
@@ -66,7 +66,7 @@ Full traceback:
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
   File "C:\Users\Ame\Downloads\renpy-6.18.3-sdk\renpy\loader.py", line 438, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'kaito/touchingchestworryblus.png'.
+IOError: Couldn't find file 'kaito/touchingchestlaughblush.png'.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 6.18.3.761

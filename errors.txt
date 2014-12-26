@@ -2,6 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/day3decision1_nick.rpy", line 91: Tab characters are not allowed in Ren'Py scripts.
+File "game/day2decision2_helpnickout.rpy", line 62: end of line expected.
+    scene black with nick fade
+                          ^
 
 Ren'Py Version: Ren'Py 6.18.3.761
