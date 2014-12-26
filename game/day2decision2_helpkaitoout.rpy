@@ -73,13 +73,12 @@ label day2decision2_helpkaitoout:
     show kaito talkingtb with dissolve
     
     k "But, umm… Did you want to come with me?"
-    l "I-I thought you said it was too embarrassing in front of other people…"
-#    k "Well, you’re not just anyone, you’re my closest friend…"
-#    if kaito_lunch then
-#            k "And like I said at lunch, I don’t mind if it’s you."
-#   else
-#           k "Of course I don’t mind if it’s you…"
-    l "O-okay…!"
+    l "I-I thought you said it was too embarrassing-"
+    
+    "Your stammering stopped as you held your breathe while Kaito leaned in closer to reassure you."
+    k "I'm never embarrassed to sing in front you, Liz."
+    "You exhaled slowly not wanting the sound of your breathe to turn into a sigh of disappointment as he pulled away, or an obvious sigh of giddiness at his words."
+    "How did breathing become so complicated?"
     
     hide kaito with dissolve
     scene bg school_hall2_sunset with fade
@@ -186,14 +185,16 @@ label day2decision2_helpkaitoout:
     l "Your hands are just so much bigger…"
     k "No, really, it’s simple! Here…"
     
-    hide kaito with dissolve
+    scene black with fade
     
-    "His fingers touch yours. You freeze in place as he holds your hand, showing you the order."
-    "Suddenly, you’re not paying attention. All you can think about his hand in yours."
+    "His fingers touch yours."
+    "You freeze in place as he holds your hand, showing you the order."
+    
+    scene kaitoscene2 with fade
+    
+    "Suddenly, you’re not paying attention. All you can think about is your hand in his."
     "He’s also behind you, leaning forward…"
     "You can feel his soft hair brushing against your cheek. He’s saying something, but it’s just so distracting..."
-    
-    show kaito smilet with dissolve
     
     k "...thumb goes over here. See?"
     l "W-what? I mean, yes."
@@ -202,12 +203,16 @@ label day2decision2_helpkaitoout:
     k "There you go! Together now…"
     "Kaito is still standing and leaning over you, his face still inches from yours…"
     "He starts to play and you hurry and keep up with him. You manage to pull it off."
-    l "...I DID IT!"
+    
+    scene bg classroom_sunset with fade
+    
+    l "...I DID IT!"    
     
     show kaito talkingt with dissolve
     
     k "You did! Okay, watch this..."
-    "Kaito leaves your side unfortunately. He sits back down at his seat."
+    "Kaito leaves your side unfortunately."
+    "He sits back down at his seat."
     k "Follow my lead."
     
     hide kaito with dissolve
@@ -234,11 +239,11 @@ label day2decision2_helpkaitoout:
     
     k "The truth is, Liz-chan…" 
     k "Lately, seeing you just as a close friend or sister is…"
-    "Kaito’s cheeks are a light shade of red… But, he continues to meet your gaze with determined eyes."
+    "Kaito’s cheeks are a light shade of red, but he continues to meet your gaze with determined eyes."
     
     show kaito worryb with dissolve
     
-    k "It’s difficult… And… I was wondering if, maybe…"
+    k "It’s difficult… And…I was wondering if, maybe…"
     "Suddenly, the door slides open!" with vpunch 
     
     hide kaito
@@ -255,7 +260,8 @@ label day2decision2_helpkaitoout:
     show kaito worryb with dissolve
     
     k "I’m gonna head back… Sorry to have to leave you like this."
-    k "Just, uh, forget what I was saying… I’ll tell you another time."
+    k "Just, uh, forget what I was saying…"
+    k "I’ll tell you another time."
     l "Oh, it’s no big deal…!"    
     l "Actually… shit, it’s a lot more late than I thought it’d be."
     l "I need to get home before my dad gets mad…"
@@ -271,7 +277,8 @@ label day2decision2_helpkaitoout:
     l "Bye Kaito-senpai…!"
     
     
-    "He says his goodbyes again and waves at you timidly from the door. You wave back and he leaves."
+    "He says his goodbyes again and waves at you timidly from the door."
+    "You wave back and he leaves."
     
     hide kaito with dissolve
     

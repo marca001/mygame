@@ -64,14 +64,14 @@ label day3morning:
     
     #change this to actual SCHOOL FESTIVAL~ background
     
-    scene bg school_hall2 with fade
+    scene bg school_front with fade
     
     "You two head into the school, which is decorated in colorful banners and signs."
     "It’s not too crowded yet since it’s the morning, but the atmosphere is buzzing full of excited chatter."
+    
     "Bao" "Hey Liz! Myca!"
     
     show myca normal at right with dissolve
-    
     m "Hey."
     l "Hi Bao! Um… what are you doing?"
     "Bao" "It’s a kissing booth for our club!!! Free kisses for a dollar!"
@@ -150,7 +150,7 @@ label day3morning:
     show myca surprised
     
     m "Your what?"
-    "Luke" "My FURSONA? The ME in another life?"
+    "Luke" "My {i}FURSONA{/i}? The {i}ME{/i} in another life?"
     "Luke" "Ugh, you cis scum just don’t understand!"
     
     show myca normal
@@ -166,7 +166,10 @@ label day3morning:
     
     "..."    
     "It’s well into the afternoon and the festival definitely has become a lot more lively."
-    "You pass by other classes, such as seeing Herbie and his asian crew do breakdancing, Blackwelder shut down some innocent students selling food, Stacey hosting a video game tournament…"
+    "You pass by other classes, such as seeing Herbie and his asian crew do breakdancing..."
+    "Blackwelder shut down some innocent students selling food..."
+    "Stacey hosting a video game tournament..."
+    "Stephanie in the student council assisting the vendors and staff..."
     
     show myca normal with dissolve
     

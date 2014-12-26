@@ -1,6 +1,6 @@
 label day2_classroomtransition1:
     
-    scene bg room with fade
+    scene bg classroom with fade
     
     "Back in the classroom, you slouch over on your desk and think about what happened during lunch."
     "The school festival is tomorrow and you still feel completely unsure of how things will play out…"
@@ -22,7 +22,8 @@ label day2_classroomtransition1:
     
     hide blackwelder normal with dissolve
     
-    "The class disperses. Most hurry and make their way out, a few stay behind and to get ready for the festival."
+    "The class disperses."
+    "Most hurry and make their way out, a few stay behind and to get ready for the festival."
     
     show myca normal with dissolve
     

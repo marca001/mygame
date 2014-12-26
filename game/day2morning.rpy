@@ -2,6 +2,12 @@ label day2morning:
     
     #test! i added stuff 
     
+    scene pink with dissolve
+    
+    show text "~Day 2~" with pixellate
+    
+    show text "~Day 2~" with Pause(2)
+    
     scene bg room with fade
     
     "You wake up bright and early the next day when your cat is kneading your face."

@@ -22,6 +22,8 @@ image bg gym = "bg/BG204_01.png"
 image bg bonfire = "bg/BG104_05.png"
 image bg schoolside_night = "bg/BG201_02.png"
 image ghost = "bg/ghost.png"
+image bg school_gate = "bg/BG209_01.png"
+image bg school_front = "bg/BG208_01.png"
 
 #--------------Other------------------------
 
@@ -32,6 +34,10 @@ image myca surprised = "others/sylvie_surprised.png"
 
 image blackwelder normal = "others/blackwelder_normal.png"
 
+#--------------Splash Screen-----------------
+
+image kaitoscene2 = "others/kaitoscene2.png"
+image nickscene2 = "others/nickscene2fglasses.png"
 
 #--------------Kaito-------------------------
 
@@ -145,13 +151,13 @@ label start:
     $ d2d2_kaito = False
     $ d2d2_nick = False        
     
-    call day1morning1
+    #call day1morning1
     
-    call day1morning2
+    #call day1morning2
 
-    call day1afternoon
+    #call day1afternoon
     
-    call day2morning
+    #call day2morning
     
     call day2_classroomtransition1
     

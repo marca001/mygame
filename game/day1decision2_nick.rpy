@@ -5,7 +5,8 @@ label day1decision2_nick:
     scene bg classroom_sunset
     with fade      
     
-    "You and Myca help move the props around the room. The class representative was generally in charge, rushing around and making sure people were on top of their assigned tasks."
+    "You and Myca help move the props around the room."
+    "The class representative was generally in charge, rushing around and making sure people were on top of their assigned tasks."
     "However, while he was in charge, a lot of the ideas that everyone was now working on had initially come from Nick."
     "His often unheard voice quietly spoke up during the first few brainstorm sessions of the project. "
     "Now, he had gradually become more involved and notably less shy when he was focused on his work."
@@ -44,9 +45,12 @@ label day1decision2_nick:
     l "{i}(...even though she was sitting next to me…){/i}"
     l "Can you show me again? You’re doing such a good job already!"
     
-    show nick madtb with dissolve
+    show nick defaultb with dissolve
     
     "Nick looks away, his mouth in a tight line. Yet he didn’t seem unhappy."
+    
+    show nick madtb with dissolve
+    
     n "...It's not that great, it's like anyone else's, you know..."
     "You can’t help but smile at his embarrassment."
     l "No, really, you have a knack for this! Will you help me?"
@@ -64,7 +68,8 @@ label day1decision2_nick:
     show nick serious with dissolve
     
     n "Actually for this part, you’ll need this glue… Here."
-    "He hands you the bottle of glue, but just as you take it, it slips out of your fingers and falls to the ground. Oops!"
+    "He hands you the bottle of glue, but just as you take it, it slips out of your fingers and falls to the ground."
+    "Oops!"
     "However, you and Nick both reach down at the same time and your hands bump together. "
     
     show nick shockb with dissolve
@@ -72,7 +77,7 @@ label day1decision2_nick:
     "The brief touch of his warm slender fingers causes sparks in your kokoro."
     l "Kya~! Oh, I’m sorry, I’m so clumsy…" with vpunch
     
-    show nick worryt with dissolve
+    show nick worrytb with dissolve
     
     n "I-it’s fine, it’s no big deal…"
     "Nick tries to hide it, but he is blushing as much as you. "
@@ -90,7 +95,8 @@ label day1decision2_nick:
     l "She did!? I didn’t even notice!"
     n "Apparently. She even told you she was leaving…"
     l "Oh, I guess so… Wow, it’s actually getting pretty late."
-    n "...Yep. I think I’m gonna go…"
+    n "Yep..."
+    n "I think I’m gonna go…"
     l "Aww, no, I was enjoying this too!"
     
     show nick seriousb
@@ -137,26 +143,36 @@ label day1decision2_nick:
     
     "Without prompt, he takes your injured hand in his and is already wiping away the blood. "
     "Despite his earlier reaction when you two brushed hands, he is moving with quiet precision this time."
-    n "I brought it, of course. We’re working with tools here, of course I have to be prepared."
+    n "I brought it, of course. We’re working with tools here so I have to be prepared."
     l "Oh…"
     "You feel slightly ashamed at your carelessness but at the same time, can’t help but blush. "
     "You can tell Nick is really worried about you, and you’re happy to see him suddenly take you so seriously."
-    "As you think this, he meticulously applies alcohol to a cotton swab and presses down on the cut. You hiss at the sharp pain again."
-    "Nick looks up at you again, clearly feeling bad. But, then he looks down and his eyes turn stern again."
+    "As you think this, he meticulously applies alcohol to a cotton swab and presses down on the cut."
+    
+    show nick worry with dissolve
+    
+    "You hiss at the sharp pain again."
+    "Nick looks up at you again, clearly feeling bad." 
+     
+    show nick serious with dissolve 
+    "But, then he looks down and his eyes turn stern again."
     
     show nick worry with dissolve
     
     n "You have to be more careful! You can’t be so reckless!"
     l "S-sorry… I wasn’t paying attention."
     
-    show nick serious
+    show nick serious with dissolve
     
     "You look to the side, feeling guilty. Holding your hand again, Nick finally applies a bandaid."
     l "Well, it doesn’t hurt anymore… Thank you for taking care of me."
     
-    show nick mada with dissolve
+    show nick worrya with dissolve
     
     "Nick softens for a second, but you can tell he’s trying to stay miffed for some reason."
+    
+    show nick mada with dissolve
+    
     n "It’s nothing… Next time, just pay attention."
     l "I will, I will… I’ll try not to be such a burden. "
     l "I see why you don’t like me back…"
@@ -164,7 +180,8 @@ label day1decision2_nick:
     show nick worryb with dissolve
     
     n "...! I never said that..."
-    "You can feel Nick’s hand squeeze yours tighter. You look down and see he’s holding your small hand between his still."
+    "You can feel Nick’s hand squeeze yours tighter."
+    "You look down and see he’s holding your small hand between his still."
     n "If anything, I don’t understand why you’re still so nice to me…!"
     l "U-um, Nick-kun, your hand…"
     
@@ -177,7 +194,8 @@ label day1decision2_nick:
     
     show nick seriousb with dissolve
     
-    l "And of course I’m still nice to you… Even though you didn’t respond to my confessions, I can’t help it."
+    l "And of course I’m still nice to you…"
+    l "Even though you didn’t respond to my confessions, I can’t help it."
     "Unconsciously, you smile sadly. "
     l "I guess I really am an idiot, huh? I really should move on."
     "Nick clenches his fists and looks away from you."
@@ -209,13 +227,15 @@ label day1decision2_nick:
     l "Oh! N-nothing! I gotta go!"
     "Bao" "Wait, what about all the cleanup? We gotta move all this stuff before we go!"
     l "Oooh, could you take care of it for me? I reaaally gotta go, I might get in trouble with my dad, okay bye!"
-    "Bao" "Really? REALLY?"
+    "Bao" "Really?"
+    "Bao" "REALLY?" with vpunch
     
     scene black with fade
     
     "Later when you get home, you’re thrown back into your normal household duties."
     "You help with dinner, have dinner with your 20 million siblings who are all like 10, and help clean up."
-    "The whole time, though, you’re thinking about what just happened. The bet, the way that Nick had acted in the afternoon, everything…"
+    "The whole time, though, you’re thinking about what just happened..."
+    "The bet, the way that Nick had acted in the afternoon, everything…"
     
     
         

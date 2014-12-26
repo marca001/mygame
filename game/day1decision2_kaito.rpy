@@ -29,8 +29,12 @@ label day1decision2_kaito:
     show kaito laughb with dissolve    
     
     "Most of the students in the room chuckle. They’re use to your appearance as sometimes you hang out with him."    
+    
+    show kaito normalb with dissolve 
+    
     "Kaito just puts on a sheepish grin at the teasing and doesn't say anything."
-    "Meanwhile, you notice some dumb ugly bitches are looking a bit sullen at you. You flash a gloating smile at them in return."
+    "Meanwhile, you notice some dumb ugly bitches are looking a bit sullen at you."
+    "You flash a gloating smile at them in return."
     l "{i}(Ha-hah, bitches be jelly){/i}"
     "Kaito rushes over to you but ends up tripping over some equipment. "
     
@@ -67,9 +71,10 @@ label day1decision2_kaito:
     
     l "Y-yeah…! But, in a you’re-a-totally-cool-brother way! You know?!"
     
-    show kaito worrya
+    show kaito worrya with dissolve
     
-    "He seems a little disappointed, but he quickly covers that up. Hmmm, that was strange…!"
+    "He seems a little disappointed, but he quickly covers that up."
+    "Hmmm, that was strange…!"
     
     hide kaito with dissolve
     
@@ -78,7 +83,8 @@ label day1decision2_kaito:
     "The upperclassmen ooh and ahh at you~"
     "Just as you and Kaito help another student with their props, you look up at the time and see time has passed quickly."
     "Classmate" "Hey, you two can go home if you’d like. We can work on more tomorrow. "
-    "Classmate" "You’ve already helped so much even though you’re not in this class! So don't worry, we've pretty much got this."
+    "Classmate" "You’ve already helped so much even though you’re not in this class!"
+    "Classmate" "So don't worry, we've pretty much got this."
     l "Aw, thanks so much, senpai!"
     "Classmate" "Aww, you’re so cute, Liz-chan! Won’t you go out with me?"
     
@@ -127,13 +133,21 @@ label day1decision2_kaito:
     l "Yay!!! You’re the best, Kaito-senpai!!"
     k "It’s no problem. It’s the least I can do for you helping us out today. "
     k "Eat up!"
-    "He hands you the cone in one of his hands, and you both go to town on the ice cream. You both fucking love ice cream."
+    
+    show kaito laugh with dissolve
+    
+    "He hands you the cone in one of his hands, and you both go to town on the ice cream."
+    "You both fucking love ice cream."
     "After you get your initial fill, you glance side-long at Kaito. "
     "He looks completely preoccupied by his creamy, frozen dessert. It’s just ice cream, yet he looks so content and happy. "
     "You giggle to yourself."
-    "He looks up at you unexpectedly. You hurriedly look away but he smiles warmly."
     
-    show kaito laughb with dissolve
+    show kaito normal with dissolve
+    
+    "He looks up at you unexpectedly."
+    "You hurriedly look away but he smiles warmly."
+    
+    show kaito normalb with dissolve
     
     k "Doesn’t this remind you of when we were kids?"
     l "Huh?"
@@ -158,16 +172,19 @@ label day1decision2_kaito:
     show kaito smileb
     
     k "Those were some of my happiest days…"
-    l "Mines too. Even though I have 1 million siblings, when I’m with you I feel especially safe and… happy."
+    l "Mine too. Even though I have 1 million siblings, when I’m with you I feel especially safe and… happy."
     
     show kaito frownb with dissolve  
     
     "Kaito seems to tense at the word sibling."
     "He says nothing though, and you both take in the gentle breeze and the sound of children playing in the distance."
     
-    show kaito worryb with dissolve
+    show kaito worry with dissolve
     
     k "Say, do you think that…"
+    
+    show kaito worryb with dissolve
+    
     "You look back at him. His face fills with red in a moment, as if he just thought of something embarrassing."
     l "What’s wrong, Kaito-kun?"
     k "Do you think that… you… would ever...?"
@@ -183,7 +200,8 @@ label day1decision2_kaito:
     
     k "...I was gonna say, do you think you can help me again tomorrow for our club??"
     l "Wha… oh. Um, yeah, maybe. I’ll let you know if I can."
-    "You feel distinctly disappointed for some reason. He has a smile on again, but it feels somewhat forced now."
+    "You feel distinctly disappointed for some reason."
+    "He has a smile on again, but it feels somewhat forced now."
     "Inside, your heart is screaming for something. Something just happened, yet you don’t know what."
 
     show kaito smile
@@ -205,7 +223,8 @@ label day1decision2_kaito:
     
     #END FLAG SCENE
     
-    "He suggests that you two head home now since the sun has near set. He walks you to your house, as he normally does, and then heads back to his own place."
+    "He suggests that you two head home now since the sun has near set."
+    "He walks you to your house, as he normally does, and then heads back to his own place."
 
     scene black with fade
     

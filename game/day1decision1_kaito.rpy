@@ -18,7 +18,7 @@ label day1decision1_kaito:
     
     scene bg white with dissolve
     
-    "You remember you and Kaito use to spend the afternoons together, eating ice cream in the warm sun."
+    "You remember you and Kaito use to spend the afternoons together, eating ice cream in the warm sun."   
     "Later, the sky was a dusky, scarlet red as you both walked hand-in-hand together. "
     "Kaito was all aglow and smiled adoringly at you."
     k "I wish we could be like this always, Liz-chan."
@@ -42,7 +42,7 @@ label day1decision1_kaito:
     scene bg classroom_sunset
     with dissolve            
     
-    show blackwelder normal at right
+    show blackwelder normal at right with dissolve
     
     "Oh. The whole class is staring. And once again, you’ve fallen asleep!"
     l "Ehhh?!" with vpunch

@@ -9,7 +9,8 @@ label day3decision1_nick:
     scene bg school_hall2_sunset with fade
 
     "When you arrive at the front of the classroom, you can see the entrance is decked out very spookily."
-    "There’s little bats and ghosts hung around the entrance. Okay, maybe it’s not that scary on the outside, but maybe it is on the inside…"
+    "There’s little bats and ghosts hung around the entrance."
+    "Okay, maybe it’s not that scary on the outside, but maybe it is on the inside…"
     "Surprisingly, Nick is loitering at the entrance with fliers in hand."
     "He’s staring at the ground, mumbling."
     

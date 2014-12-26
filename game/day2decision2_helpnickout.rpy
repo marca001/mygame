@@ -200,10 +200,13 @@ label day2decision2_helpnickout:
     l "WHAT?!" with vpunch
     l "N-NO WAY!" with vpunch
     n "Really?"
-    
+
     scene black with fade
 
     "He moves even closer, and before you know it, he’s cornered you against the wall…"
+    
+    scene nickscene2 with fade
+    
     "Nick looms over you and places his arm above you on the wall, looking down at you and inches away from your face."
 
 #STACEY'S PIC SOMEWHERE AROUND HERE
@@ -235,20 +238,29 @@ label day2decision2_helpnickout:
     "After some effort on the other side, the supply room door finally slides open."
     "You spring out, happy to get out of that old room."
     l "Ahh! I thought we were gonna die in there!"
-    m "We? Oh!"
+    
+    show myca smile at left with dissolve
+    m "We?"
+    
+    show myca surprised
+    
+    m "Oh!"
     
     show nick defaultb with dissolve
     
     "Nick shuffles out shyly. With the paint buckets in hand, of course."
     m "Ohhhh shit, did I… uhh, interrupt? "
-    m "Were you really stuck in there? LOL"
-    l "WHAT?! Myca!"
     
-    show nick worrytb with dissolve
+    show myca giggle with dissolve
+    m "Were you really stuck in there? LOL"
+    l "WHAT?! Myca!" with vpunch
+    
+    show nick worrytb at right with dissolve
     n "I’m gonna... "
     "Nick mumbles and just motions to the paint buckets and hurries back to class."
     
     hide nick with fade
+    show myca surprised at center with dissolve
     
     m "Ohhhhh shhhhh…. I’m so sorry I cockblocked you!"
     m "I was just coming up to grab some materials for Anime Club!"
@@ -262,6 +274,7 @@ label day2decision2_helpnickout:
     m "Alright."
     
     scene black with fade
+    hide myca with dissolve
     
     "..."
     

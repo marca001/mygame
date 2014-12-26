@@ -12,6 +12,12 @@ label day1morning1:
     k "Liz-chan… WAKE UP!" with vpunch
     l "GYA!??!" with vpunch
     
+    scene pink with dissolve
+    
+    show text "~Day 1~" with pixellate
+    
+    show text "~Day 1~" with Pause(2)    
+    
     scene bg room
     with fade      
     
@@ -23,14 +29,16 @@ label day1morning1:
     
     k "Liz-chan, it’s time for school! Wake up, silly head!!"
     k "Kaito-senpai!?"
-    "You blush, feeling embarrassed at being woken up like this, but also because you just had an awesome dream about him. Then you realize you were talking in your sleep!"
+    "You blush, feeling embarrassed at being woken up like this, but also because you just had an awesome dream about him."
+    "Then you realize you were talking in your sleep!"
     l "Oh no…! I didn’t say anything just now, did I??"
     
     show kaito worry
     with dissolve    
     
     k "Um… nothing that I understood."
-    "You just laugh nervously. You then collect yourself and look at the time. It’s actually a little bit early!"
+    "You just laugh nervously, then collect yourself and look at the time." 
+    "It’s actually a little bit early!"
     l "Oh wow, why are you here so early? Not that I mind…"
     
     show kaito normal
@@ -64,7 +72,8 @@ label day1morning1:
     "Your hands spring up to your face in delight, giggling with delight as you try to suppress your excitement. "
     l "{i}(No, no, I’m sure he really is in a rush… It’s fine… He doesn’t love me like the way I love him, of course…!){/i}"
     "You sigh to yourself again, deflating."
-    "You head downstairs. You’re not usually a morning person… But you can be if Kaito is there!!"
+    "You head downstairs."
+    "You’re not usually a morning person… But you can be if Kaito is there!!"
     
     scene bg house_outside
     with dissolve    
@@ -78,9 +87,10 @@ label day1morning1:
     "Your mother hurries from the kitchen and rushes to you, handing you some bentos."
     l "Thanks mom."
     k "Good morning, Mrs. Fang"
-    "Liz's Mom" "Oh Kaito, you take of my daughter and make lots of grandchildren, ok???"
+    "Liz's Mom" "Oh Kaito, you take care of my daughter and make lots of grandchildren, ok???"
     
-    "You both blush furiously. She says that a lot about you, Kaito, and your child birthing hips, but you feel embarrassed every time still. "
+    "You both blush furiously."
+    "She says that a lot about you, Kaito, and your child birthing hips, but you feel embarrassed every time still. "
     
     show kaito laughb
     with dissolve    
@@ -101,7 +111,8 @@ label day1morning1:
     with dissolve  
     
     l "I’ll see if I can help your class, but our class is doing a haunted house and there’s still a lot of work to do."
-    k "No worries if you can’t. I know that you guys probably have a lot of props to make."
+    k "No worries if you can’t."
+    k "I know that you guys probably have a lot of props to make."
     show kaito frown
     with dissolve      
     
@@ -110,7 +121,8 @@ label day1morning1:
     k "So, you’ll be working with your friend Nick, then?"
     l "O-oh, yeah..."
     
-    "You suppress a blush but talk about how he’s in charge of the lighting and the props and such. Kaito nods, but doesn’t seem particularly interested in the details."
+    "You suppress a blush but talk about how he’s in charge of the lighting and the props and such." 
+    "Kaito nods, but doesn’t seem particularly interested in the details."
     
     k "Are you alright hanging out with him? I know he never answered you…"
     l "Oh, uh, of course! It’s been like so long! I’m totally over him! He’s old news!"

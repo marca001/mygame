@@ -55,7 +55,7 @@ label day2decision1_lookforkaito:
     "The roof door closes behind you a little too noisily and the song stops abruptly."
     "Kaito had been lounging on one of the benches, but now he was turning and looking in your direction."
     
-    show kaito shockb
+    show kaito shockb with dissolve
     k "Liz-chan?"
     "You walk toward him with a sheepish smile."
     l "Aww, don’t stop! You sing like an angel!"
@@ -73,7 +73,8 @@ label day2decision1_lookforkaito:
     show kaito laughb with dissolve
     
     k "Of course not."
-    "For some reason, the way he looks at you and says that makes you blush. You quickly change subjects."
+    "For some reason, the way he looks at you and says that makes you blush."
+    "You quickly change subjects."
     l "H-have you had lunch yet?"
     
     show kaito normalb with dissolve
@@ -118,7 +119,8 @@ label day2decision1_lookforkaito:
     show kaito talkingtb with dissolve
     
     k "It’s just, you know, you fed it to me directly, so I got… um…"
-    "Then it clicks. Sharing food and feeding each other… "
+    "Then it clicks."
+    "Sharing food and feeding each other… "
     "You were treating him like he was your boyfriend or something…!"
     "You feel yourself turn a bright red."
     l "S-s-s-sorry!" with vpunch
@@ -131,7 +133,8 @@ label day2decision1_lookforkaito:
     show kaito smileb with dissolve
     
     k "I-I mean, honestly, I don’t mind it… "
-    k "I didn’t dislike it… Actually, it kind of made me happy."
+    k "I didn’t dislike it…"
+    k "Actually, it kind of made me happy."
     l "...R-really?!" with vpunch
     l "Ummm, did you want another bite??"
     
@@ -175,7 +178,8 @@ label day2decision1_lookforkaito:
     k "Anyway, we’d both better get to class right?"
     l "Yeah…"
     
-    "You pack up your empty lunch. Normally, you’d still be kinda hungry, but the butterflies from earlier makes you forget all about it."
+    "You pack up your empty lunch."
+    "Normally, you’d still be kinda hungry, but the butterflies from earlier makes you forget all about it."
     
     hide kaito with dissolve
     "You two make your way downstairs from the roof and back to class…"
