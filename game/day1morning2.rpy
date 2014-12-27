@@ -123,9 +123,9 @@ label day1morning2:
     "It’s Myca, your best buddy in the whole world!!!"
     "She's really good at making DATING GAMES!!"
     "She’s a nerdy-looking short chick with thick glasses and a long braid."
-    "But in this case, she's been trying out a new style... maybe she's practicing a new cosplay?"
-    "Either way, it's an interesting change... in a positive way!"
-    "({i}...right?!!?!{/i})"
+    #"But in this case, she's been trying out a new style... maybe she's practicing a new cosplay?"
+    #"Either way, it's an interesting change... in a positive way!"
+    #"({i}...right?!!?!{/i})"
     
     m "I think you missed the whole lecture."
     l "Ehhh."

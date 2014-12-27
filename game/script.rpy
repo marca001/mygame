@@ -163,8 +163,6 @@ label start:
     
     call day3morning
     
-    call badend
-    
     
 label credits:
     
@@ -184,21 +182,21 @@ label credits:
     
     show text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with moveinbottom
     
-    show text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with Pause(3)
+    show text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with Pause(4)
     
     hide text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with moveouttop        
 
     show text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!! \"" with moveinbottom
     
-    show text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!!\"" with Pause(3)
+    show text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!!\"" with Pause(5)
     
     hide text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!!\"" with moveouttop    
     
     show text "Music\nIncoming DLC for $2.99!" with moveinbottom
     
-    show text "Music\nIncoming DLC for $2.99" with Pause(2)
+    show text "Music\nIncoming DLC for $2.99!" with Pause(2)
     
-    hide text "Music\nIncoming DLC for $2.99" with moveouttop        
+    hide text "Music\nIncoming DLC for $2.99!" with moveouttop        
     
     show text "~Thanks For Playing~" with pixellate
     
