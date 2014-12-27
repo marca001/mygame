@@ -182,17 +182,17 @@ label credits:
     
     hide text "Writing, Directing, Programming\nMyca Arcangel\n\n\"Hope you had fun! I know I'm moving far, but our HEARTS ARE ALWAYS CONNECTED!\nSeriously though, we're best friends... \nWe'll be 2gether4ever love u bae\"" with moveouttop    
     
-    show text "Programming & Editing\nStephanie Arcangel" with moveinbottom
+    show text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with moveinbottom
     
-    show text "Programming & Editing\nStephanie Arcangel" with Pause(3)
+    show text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with Pause(3)
     
-    hide text "Programming & Editing\nStephanie Arcangel" with moveouttop        
+    hide text "Programming & Editing\nStephanie Arcangel\n\n\"Merry Christmas, Liz! It was fun working on this for you. Hope some of the expression transitions made you doki doki (lol...) \"" with moveouttop        
 
-    show text "Art and Background(googling)\nStacey Arcangel" with moveinbottom
+    show text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!! \"" with moveinbottom
     
-    show text "Art and Background(googling)\nStacey Arcangel" with Pause(3)
+    show text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!!\"" with Pause(3)
     
-    hide text "Art and Background(googling)\nStacey Arcangel" with moveouttop    
+    hide text "Art and Background(googling)\nStacey Arcangel\n\n\"Hey, Liz! Merry Christmas! Hope you like all the art! (...my back hurts...) Wishing you and Nick a wonderful holiday and the best wishes to your future together! Love you Liz!!\"" with moveouttop    
     
     show text "Music\nIncoming DLC for $2.99!" with moveinbottom
     
