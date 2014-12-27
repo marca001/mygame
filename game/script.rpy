@@ -27,10 +27,10 @@ image bg school_front = "bg/BG208_01.png"
 
 #--------------Other------------------------
 
-image myca normal = "others/sylvie_normal.png"
-image myca giggle = "others/sylvie_giggle.png"
-image myca smile = "others/sylvie_smile.png"
-image myca surprised = "others/sylvie_surprised.png"
+image myca normal = "others/mycanormal.png"
+image myca giggle = "others/mycagiggle.png"
+image myca smile = "others/mycasmile.png"
+image myca surprised = "others/mycasurprised.png"
 
 image blackwelder normal = "others/blackwelder_normal.png"
 
